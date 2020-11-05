@@ -220,7 +220,7 @@ header a {
 .row {
 	display: flex;
 	margin-bottom: 10px;
-	margin-top: 900px;
+	margin-top: 100vh;
 }
 .col-3,
 .col-2,
