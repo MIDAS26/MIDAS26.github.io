@@ -70,20 +70,10 @@ header a {
 	background-color: whitesmoke;
 }
 .white {
-	width: 100vh;
-	height: 50px;
-	z-index: 1;
+	height: 112px;
+	width: 100%;
 }
-.white img{
-	width: 100vh;
-	height: 50px;
-	position: absolute;
-	bottom: 3px;
-	left: 0;
-	right: 0;
 
-
-}
 .header .show-menu {
 	display: block;
 	position: absolute;
@@ -114,7 +104,11 @@ header a {
 	display: flex;
 	margin: 0;
 }
-
+#top{
+	margin-top: -112px;
+	top: 0;
+	left: 0;
+}
 
 /*---------menu---------*/
 
@@ -220,7 +214,7 @@ header a {
 .row {
 	display: flex;
 	margin-bottom: 10px;
-	margin-top: 100vh;
+	margin-top:100vh;
 }
 .col-3,
 .col-2,

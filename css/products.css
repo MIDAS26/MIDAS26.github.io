@@ -1,20 +1,7 @@
 @font-face {
     font-family: 'gothic';
     src: url('../fonts/Sketch.ttf');
-    url('../fonts/Sketch.ttf') format('truetype'), font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Anime Ace v05";
-    src: url("../fonts/anime-ace-v05.eot"); /* IE9 Compat Modes */
-    src: url("../fonts/anime-ace-v05.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/anime-ace-v05.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/anime-ace-v05.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/anime-ace-v05.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/anime-ace-v05.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/anime-ace-v05.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: normal;
+url('../fonts/Sketch.ttf') format('truetype'), font-weight: normal;
     font-style: normal;
 }
 /*-------------default-------------*/
@@ -73,8 +60,15 @@ header a {
 /*-------------header-------------*/
 
 .header {
-    padding-top: 57px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding-top: 10px;
     color: black;
+    z-index: 1000000;
+    background-color: whitesmoke;
 }
 .header .show-menu {
     display: block;
@@ -94,7 +88,7 @@ header a {
 }
 .logo {
     margin-bottom: 10px;
-    width: 150px;
+    width: 70px;
     height: 90px;
 }
 .socials{
@@ -181,21 +175,10 @@ header a {
     color: white;
 }
 /*------------main------------*/
-.title{
-    margin-top: 10px;
-    padding: 35px 0;
+.white {
+    height: 112px;
     width: 100%;
-    background-color: whitesmoke;
 }
-.title p{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: auto;
-    text-align: center;
-    font-size: 24px;
-}
-
 
 .wrap1, .wrap2{
     margin-right: auto;
@@ -219,6 +202,7 @@ header a {
     display: inline-block;
     align-items: center;
 }
+
 .col-1 img,
 .col-2 img,
 .col-3 img,
@@ -245,15 +229,7 @@ header a {
     animation:product-hover .5s alternate;
     opacity: .2;
 }
-/*.col-1 img:hover .some,*/
-/*.col-2 img:hover .some,*/
-/*.col-3 img:hover .some,*/
-/*.col-4 img:hover .some,*/
-/*.col-5 img:hover .some,*/
-/*.col-6 img:hover .some {*/
-/*    opacity: .2;*/
 
-/*}*/
 
 .some {
     position: absolute;
@@ -267,6 +243,15 @@ header a {
     background: rgb(0,0,0);
     animation: product-unhover .5s;
 
+}
+.some a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
 }
 @keyframes product-hover {
     from{
@@ -448,6 +433,7 @@ header a {
         margin-top: 0;
     }
 }
+
 @media screen and (max-width: 767px) {
     body{
         overflow-x:hidden;

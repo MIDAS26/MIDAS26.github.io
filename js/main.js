@@ -2,7 +2,7 @@ let button = document.querySelector('.menu-open');
 let menu = document.querySelector('.menu');
 let lil = document.getElementsByClassName('lil')
 let toTop = document.getElementById('idTop')
-let header = document.getElementById('header')
+let header = document.getElementById('top')
 button.onclick = function() {
 	menu.classList.toggle('show-menu');
 	for (let i = 0; i < lil.length; i++) {
