@@ -439,7 +439,11 @@ header a {
 		overflow-x:hidden;
 	}
 	.header{
-		padding-top: 10px;
+		padding-top: 3px;
+		height: 75px;
+	}
+	.banner{
+		margin-top: 72px;
 	}
 	.container {
 		width: 540px;
@@ -458,7 +462,7 @@ header a {
 	.menu-open img{
 		position: absolute;
 		right: 30px;
-		top: 33px;
+		top: 30px;
 		height: 40px;
 	}
 	.menu{
@@ -538,6 +542,7 @@ header a {
 	body{
 		overflow-x:hidden;
 	}
+
 	.container {
 		width: 100%;
 		padding: 0 15px;
