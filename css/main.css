@@ -210,7 +210,31 @@ header a {
 	width: 100%;
 	height: 100%;
 }
-
+.title{
+	margin-top: 100vh;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 100px;
+	background-color: #ededed;
+}
+.title h1{
+	text-transform: uppercase; /*temporary*/
+	padding-top: 25px;
+	text-align: center;
+	font-size: 50px;
+}
+.new-collection{
+	width: 100%;
+	height: 100%;
+}
+.new-collection img{
+	object-fit: cover;
+	width: 1170px;
+	height: 525px;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+}
 .row {
 	display: flex;
 	margin-bottom: 10px;
@@ -605,5 +629,8 @@ header a {
 	}
 	.shipping{
 		display: none;
+	}
+	.title h1{
+		font-size: 34px;
 	}
 }

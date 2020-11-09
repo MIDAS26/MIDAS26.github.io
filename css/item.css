@@ -219,17 +219,7 @@ header a {
     flex-direction: row;
 }
 .item{
-    display: block;
-    background: url("https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg");
     margin-top: -20px;
-    width: 370px;
-    height: 472px;
-}
-.q1:hover .item{
-    background: url("https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg");
-}
-.q2:hover .item{
-    background: url("https://alanterz.com/image/cache/catalog/hoodies/Incurection%202.0-370x472.jpg");
 }
 .s-img {
     height: 90px;
