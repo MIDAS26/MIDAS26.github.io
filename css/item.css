@@ -67,7 +67,7 @@ header a {
     padding-top: 10px;
     color: black;
     z-index: 1000000;
-    background-color: whitesmoke;
+    background-color: #ededed;
 }
 .white {
     height: 220px;
@@ -151,7 +151,7 @@ header a {
     width: 30px;
     height: 30px;
     margin-right: auto;
-    margin-left: 2px;
+    margin-left: 5px;
     border-radius: 20px;
 }
 .socials li{
@@ -186,8 +186,8 @@ header a {
     z-index: 1000;
 }
 /*.btn:hover {*/
-/*  background: black;*/
-/*  color: white;*/
+/*	background: black;*/
+/*	color: white;*/
 /*}*/
 
 /*---------------main---------------*/
@@ -220,6 +220,7 @@ header a {
 }
 .item{
     margin-top: -20px;
+
 }
 .s-img {
     height: 90px;
@@ -278,7 +279,7 @@ header a {
 }
 .text-description li{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
     list-style-type: disc;
 
 }
@@ -400,7 +401,7 @@ header a {
         height: 195px;
     }
     .menu li a{
-        font-size: 19px;
+        font-size: 18px;
     }
     .r{
         margin-left: 100px;
@@ -439,6 +440,7 @@ header a {
         width: 40%;
     }
 }
+
 @media screen and (max-width: 767px) {
     body{
         overflow-x:hidden;
@@ -565,13 +567,13 @@ header a {
         display: flex;
     }
     /*button{*/
-    /*  padding: 0;*/
-    /*  left: 0;*/
-    /*  bottom: 0;*/
-    /*  margin-left: auto;*/
-    /*  right: 0;*/
-    /*  float: left;*/
-    /*  margin-top: 15px;*/
+    /*	padding: 0;*/
+    /*	left: 0;*/
+    /*	bottom: 0;*/
+    /*	margin-left: auto;*/
+    /*	right: 0;*/
+    /*	float: left;*/
+    /*	margin-top: 15px;*/
     /*}*/
     .shipping{
         text-align: left;
